@@ -1,5 +1,5 @@
 {
-  "name": "redraw",
+  "name": "redrawjs",
   "version": "1.0.2",
   "description": "基于传统视图，VM视图框架。并且支持SEO优化解决方案。",
   "main": "index.js",
@@ -11,15 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rockywu/redraw.git"
+    "url": "https://github.com/rockywu/redrawjs.git"
   },
   "keywords": [
-    "redraw"
+    "redrawjs",
+    "javascript"
   ],
   "author": "Rocky Wu <wjl19890427@hotmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rockywu/redraw/issues"
+    "url": "https://github.com/rockywu/redrawjs/issues"
   },
-  "homepage": "https://github.com/rockywu/redraw"
+  "homepage": "https://github.com/rockywu/redrawjs"
 }
