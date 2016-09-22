@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copyfile": "mkdir -p build && cp -r package.json README.md LICENSE .npmignore build/",
+    "dev" : "webpack --config ./build/webpack.config.js -w",
+    "copyfile": "mkdir -p publish && cp -r package.json README.md LICENSE .npmignore publish/",
     "release": "npm run copyfile && cd build/ && npm publish",
     "patch": "rm -rf build && npm version patch && npm run release"
   },
@@ -22,5 +23,15 @@
   "bugs": {
     "url": "https://github.com/rockywu/redrawjs/issues"
   },
-  "homepage": "https://github.com/rockywu/redrawjs"
+  "homepage": "https://github.com/rockywu/redrawjs",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "dependencies": {}
 }
