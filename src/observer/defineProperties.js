@@ -1,6 +1,7 @@
 "use strict";
 /**
  * Created by rocky on 16/9/27.
+ *
  */
 import canHideProperty from "./parts/canHideProperty";
 import win from "../var/window";
@@ -27,8 +28,7 @@ if (!canHideProperty) {
             }
             return obj;
         }
-    } else if(false) {
-        //低版本暂时参考
-
+    } else {
+        alert("低版本游览器")
     }
 }
